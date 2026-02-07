@@ -2,7 +2,7 @@ name: Daily Auto Commit
 
 on:
   schedule:
-    - cron: '0 18 * * *'  # Bangladesh time 12 AM
+    - cron: */5 * * * *  # Bangladesh time 12 AM
   workflow_dispatch:
 
 jobs:
