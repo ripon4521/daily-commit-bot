@@ -2,7 +2,7 @@ name: Daily Auto Commit
 
 on:
   schedule:
-    - cron: '*/5 * * * *'   # every 5 minutes
+    - cron: '0 0,8,16 * * *'   # UTC time: 0:00, 8:00, 16:00
   workflow_dispatch:
 
 jobs:
